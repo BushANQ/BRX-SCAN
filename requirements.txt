@@ -1,0 +1,6 @@
+tqdm>=4.65.0
+scapy>=2.5.0
+requests>=2.31.0
+argparse>=1.4.0
+ipaddress>=1.0.23
+colorama>=0.4.6    # Windows下的进度条颜色支持
