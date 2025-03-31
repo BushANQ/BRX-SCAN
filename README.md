@@ -26,28 +26,28 @@ pip install scapy
 ### 基本扫描
 ```bash
 # 扫描默认端口(1-1024)
-python 2.py example.com
+python main.py example.com
 
 # 指定端口范围
-python 2.py example.com -s 1 -e 65535
+python main.py example.com -s 1 -e 65535
 
 # 指定特定端口
-python 2.py example.com -p 80,443,8080
+python main.py example.com -p 80,443,8080
 ```
 
 ### 高级选项
 ```bash
 # 调整扫描速度(1-5)
-python 2.py example.com -T 4
+python main.py example.com -T 4
 
 # 显示详细信息
-python 2.py example.com -v
+python main.py example.com -v
 
 # 随机化端口顺序
-python 2.py example.com -r
+python main.py example.com -r
 
 # 服务版本检测
-python 2.py example.com --service-detection
+python main.py example.com --service-detection
 ```
 
 ## 参数说明
