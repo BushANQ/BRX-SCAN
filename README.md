@@ -14,11 +14,7 @@
 ## 依赖安装
 
 ```bash
-# 基础依赖
-pip install tqdm
-
-# 高级功能依赖(可选)
-pip install scapy
+pip install -r requirements.txt
 ```
 
 ## 使用方法
